@@ -14,7 +14,7 @@ Developing an excellent marketing strategy is crucial for an organization to con
 
 For our analysis we utilized the Brands & Product Emotions Dataset, which originally consisted of 9,093 entries. The attributes of this dataset included customer tweets, Apple and Google product types, and customer sentiment. For exploration purposes, we narrowed the dataset to all Apple and Google tweets that had a sentiment attached, which was 3,291 entries. In order to train our model to predict Apple customer sentiment based on future tweets, we needed to narrow our dataset so that it only contained Apple related customer tweets that had a sentiment attached to them. As a result, our final model was built from a dataset that contained 2,751 data  entries. 
 
-![Apple Sentiment](./images/apple_sentiment.jpg)
-![Negative Words](./images/negative_words.jpg)
-![Positive Words](./images/positive_words.jpg)
-![Product Sentiment](./images/product_sentiment.jpg)
+![Apple Sentiment](./images/apple_sentiment.png)
+![Negative Words](./images/negative_words.png)
+![Positive Words](./images/positive_words.png)
+![Product Sentiment](./images/product_sentiment.png)

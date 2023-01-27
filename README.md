@@ -11,9 +11,8 @@ Developing an excellent marketing strategy is crucial for an organization to con
 
 
 # Data Understanding
+For our analysis we utilized the Brands & Product Emotions Dataset, which originally consisted of 9,093 entries. The attributes of this dataset included customer tweets, Apple and Google product types, and customer sentiment. For exploration purposes, we narrowed the dataset to all Apple and Google tweets that had a sentiment attached, which was 3,291 entries.
 ![Company Tweets](./images/tweets_by_company.png)
-
-For our analysis we utilized the Brands & Product Emotions Dataset, which originally consisted of 9,093 entries. The attributes of this dataset included customer tweets, Apple and Google product types, and customer sentiment. For exploration purposes, we narrowed the dataset to all Apple and Google tweets that had a sentiment attached, which was 3,291 entries. In order to train our model to predict Apple customer sentiment based on future tweets, we needed to narrow our dataset so that it only contained Apple related customer tweets that had a sentiment attached to them. As a result, our final model was built from a dataset that contained 2,751 data  entries. 
 
 # Exploratory Data Analysis
 Once we narrowed the dataset to Apple related tweets only, we began exploring overall customer sentiment towards the company. As you can see in the chart below, the majority of tweets were positive.
@@ -36,7 +35,7 @@ The next step is to create a vector representation of the preprocessed tweets us
 
 
 # Final Evaluation
-For our final model, we wanted to predict customer sentiment based on tweets that only related to Apple. We filtered down to Apple products, preprocessed and vectorized in the same way as our original model, and then performed a Grid Search to tune the hyperparameters of the Random Forest Classifier. The Grid Search used a 5-fold-cross-validation and tested various combinations of parameters such as number of estimators, criterion, class weight, etc. After the Grid Search returned the best set of hyperparameters, we ran the model and achieved an accuracy score of 87.84%. 
+In order to train our model to predict Apple customer sentiment based on future tweets, we needed to narrow our dataset so that it only contained Apple related customer tweets that had a sentiment attached to them. As a result, our final model was built from a dataset that contained 2,751 data entries.  We then preprocessed and vectorized in the same way as our original model, and performed a Grid Search to tune the hyperparameters of the Random Forest Classifier. The Grid Search used a 5-fold-cross-validation and tested various combinations of parameters such as number of estimators, criterion, class weight, etc. After the Grid Search returned the best set of hyperparameters, we ran the final model and achieved an accuracy score of 87.84%. 
 
 
 

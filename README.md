@@ -34,7 +34,7 @@ The next step is to create a vector representation of the preprocessed tweets us
 # Final Evaluation
 In order to train our model to predict Apple customer sentiment based on future tweets, we needed to narrow our dataset so that it only contained Apple related customer tweets that had a sentiment attached to them. As a result, our final model was built from a dataset that contained 2,751 data entries.  We then preprocessed and vectorized in the same way as our original model, and performed a Grid Search to tune the hyperparameters of the Random Forest Classifier. The Grid Search used a 5-fold-cross-validation and tested various combinations of parameters such as number of estimators, criterion, class weight, etc. After the Grid Search returned the best set of hyperparameters, we ran the final model and achieved an accuracy score of 87.21%. 
 
-# Reccommendations
+# Recommendations
 Based on our analysis, we have two concrete recommendations for the Apple marketing team to implement going forward. First- look for more opportunities to do product launches at events. Twitter data indicated that the SXSW event in Austin went very well and generated a lot of positive online buzz. Second- as the iPhone sees improvements in battery life, make sure to strongly highlight these improvements in your advertising. Data indicated that there is a negative perception of the iPhone battery life, and therefore efforts to reduce this perception should bode well.
 
 # Next Steps

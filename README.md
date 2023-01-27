@@ -25,8 +25,19 @@ The next step was to explore product specific sentiment. To do this, we created 
 ![Product Sentiment](./images/product_sentiment.png)
 
 
+
 ![Negative Words](./images/negative_words.png)
 ![Positive Words](./images/positive_words.png)
+
+# Modeling
+To better understand the customer, we used NLP and a RandomForest Classifier model to predict customer sentiment based on tweets. The first step is preprocessing the tweets using NLTK, which includes tokenizing the tweets using a regular expression tokenizer, removing stop words, and stemming the words. This preprocessing step is performed on the 'tweet' column of the data and the result is stored in a new column 'preprocessed_tweet'.
+The next step is to create a vector representation of the preprocessed tweets using CountVectorizer. This vector is then split into training and test sets. The model then uses a RandomForestClassifier to fit the training data and predict the sentiment of the test data. The baseline model accuracy came out to be 86.49%. In the next section, we discuss the results of our final model after tuning. 
+
+
+
+# Final Evaluation
+For our final model, we wanted to predict customer sentiment based on tweets that only related to Apple. We filtered down to Apple products, preprocessed and vectorized in the same way as our original model, and then performed a Grid Search to tune the hyperparameters of the Random Forest Classifier. The Grid Search used a 5-fold-cross-validation and tested various combinations of parameters such as number of estimators, criterion, class weight, etc. After the Grid Search returned the best set of hyperparameters, we ran the model and achieved an accuracy score of 87.84%. 
+
 
 
 

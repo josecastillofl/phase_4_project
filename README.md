@@ -24,10 +24,14 @@ The next step was to explore product specific sentiment. To do this, we created 
 
 ![Product Sentiment](./images/product_sentiment.png)
 
+We then sought to identify specific words that may be related to positive or negative sentiment tweets. We discovered that ‘SXSW’ was the most common word found in positive tweets. Upon a deeper dive into the tweets themselves, we were able to confirm that Apple had launched a new iPad at the SXSW event in Austin, which generated a lot of positive buzz on Twitter. 
+
+![Positive Words](./images/positive_words.png)
+
 
 
 ![Negative Words](./images/negative_words.png)
-![Positive Words](./images/positive_words.png)
+
 
 # Modeling
 To better understand the customer, we used NLP and a RandomForest Classifier model to predict customer sentiment based on tweets. The first step is preprocessing the tweets using NLTK, which includes tokenizing the tweets using a regular expression tokenizer, removing stop words, and stemming the words. This preprocessing step is performed on the 'tweet' column of the data and the result is stored in a new column 'preprocessed_tweet'.

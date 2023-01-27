@@ -24,12 +24,9 @@ The next step was to explore product specific sentiment. To do this, we created 
 
 ![Product Sentiment](./images/product_sentiment.png)
 
-We then sought to identify specific words that may be related to positive or negative sentiment tweets. We discovered that ‘SXSW’ was the most common word found in positive tweets. Upon a deeper dive into the tweets themselves, we were able to confirm that Apple had launched a new iPad at the SXSW event in Austin, which generated a lot of positive buzz on Twitter. 
+We then sought to identify specific words that may be related to positive or negative sentiment tweets. We discovered that ‘SXSW’ was the most common word found in positive tweets. Upon a deeper dive into the tweets themselves, we were able to confirm that Apple had launched a new iPad at the SXSW event in Austin, which generated a lot of positive buzz on Twitter. As for negative sentiment, we discovered that ‘battery’ was the most common word found in negative tweets about the iPhone. As you can see in the plot below, ‘blackberry’ was also a common word found in negative tweets. A deeper dive into the tweets themselves told us that users were complaining about the iPhone battery and reminiscing about stronger battery life found in the Blackberry. 
 
 ![Positive Words](./images/positive_words.png)
-
-
-
 ![Negative Words](./images/negative_words.png)
 
 

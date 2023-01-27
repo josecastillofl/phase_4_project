@@ -19,7 +19,10 @@ Once we narrowed the dataset to Apple related tweets only, we began exploring ov
 
 ![Apple Sentiment](./images/apple_sentiment.png)
 
+The next step was to explore product specific sentiment. To do this, we created a new dataframe that only contained tweets related to the iPad and iPhone. As you can see in the plot below, the iPhone had a higher percentage of negative tweets compared to the iPad. This led us to believe that the iPhone could represent an opportunity for improvement and should be explored further.
+![Product Sentiment](./images/product_sentiment.png)
+
 
 ![Negative Words](./images/negative_words.png)
 ![Positive Words](./images/positive_words.png)
-![Product Sentiment](./images/product_sentiment.png)
+

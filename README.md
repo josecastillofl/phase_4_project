@@ -43,13 +43,6 @@ In order to train our model to predict Apple customer sentiment based on future 
 
 # Next Steps
 
-## For More Information   
 
-See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [presentation](./presentation.pdf).
-
-**For additional info, contact:**
-- Zach Cherna: zacharycherna@gmail.com	  
-- Nate Kist: natekist@outlook.com
-- Jose Castillo: 114josecastillo@gmail.com 
 
 

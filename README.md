@@ -12,6 +12,7 @@ Developing an excellent marketing strategy is crucial for an organization to con
 
 # Data Understanding
 For our analysis we utilized the Brands & Product Emotions Dataset, which originally consisted of 9,093 entries. The attributes of this dataset included customer tweets, Apple and Google product types, and customer sentiment. For exploration purposes, we narrowed the dataset to all Apple and Google tweets that had a sentiment attached, which was 3,291 entries.
+
 ![Company Tweets](./images/tweets_by_company.png)
 
 # Exploratory Data Analysis

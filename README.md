@@ -1,3 +1,4 @@
+
 ![header](./images/slides_header.jpg)
 # Overview
 
@@ -26,4 +27,6 @@ The next step was to explore product specific sentiment. To do this, we created 
 
 ![Negative Words](./images/negative_words.png)
 ![Positive Words](./images/positive_words.png)
+
+
 

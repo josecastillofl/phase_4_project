@@ -16,7 +16,7 @@ For our analysis we utilized the Brands & Product Emotions Dataset, which origin
 ![Company Tweets](./images/tweets_by_company.png)
 
 # Exploratory Data Analysis
-Once we narrowed the dataset to Apple related tweets only, we began exploring overall customer sentiment towards the company. As you can see in the chart below, the majority of tweets were positive.
+Since our stakeholder for this analysis is Apple, we began exploring overall customer sentiment specifically towards them. As you can see in the chart below, the majority of tweets were positive.
 
 ![Apple Sentiment](./images/apple_sentiment.png)
 

@@ -38,6 +38,18 @@ The next step is to create a vector representation of the preprocessed tweets us
 # Final Evaluation
 In order to train our model to predict Apple customer sentiment based on future tweets, we needed to narrow our dataset so that it only contained Apple related customer tweets that had a sentiment attached to them. As a result, our final model was built from a dataset that contained 2,751 data entries.  We then preprocessed and vectorized in the same way as our original model, and performed a Grid Search to tune the hyperparameters of the Random Forest Classifier. The Grid Search used a 5-fold-cross-validation and tested various combinations of parameters such as number of estimators, criterion, class weight, etc. After the Grid Search returned the best set of hyperparameters, we ran the final model and achieved an accuracy score of 87.84%. 
 
+# Reccommendations
 
+
+# Next Steps
+
+## For More Information   
+
+See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [presentation](./presentation.pdf).
+
+**For additional info, contact:**
+- Zach Cherna: zacharycherna@gmail.com	  
+- Nate Kist: natekist@outlook.com
+- Jose Castillo: 114josecastillo@gmail.com 
 
 

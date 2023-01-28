@@ -40,6 +40,32 @@ Based on our analysis, we have two concrete recommendations for the Apple market
 # Next Steps
 In the future we’d like to add additional sources of customer sentiment into the analysis, such as data from Facebook and Instagram. The more examples of customer sentiment we have, the better we can predict outcomes and make recommendations. Finally, since customer preferences and attitudes are always evolving, we’d like to update the model and our analysis regularly so that your team can stay on top of trends and perceptions in real-time. Ultimately, we believe these efforts will lead to increased customer satisfaction.
 
+## For More Information   
+
+See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [presentation](./presentation.pdf).
+
+**For additional info, contact:**
+- Nate Kist: natekist@outlook.com
+
+## Repository Structure
+
+```
+├── images
+│   ├── slides_header.jpg
+│   ├── negative_words.png
+│   ├── positive_words.png
+│   ├── product_sentiment.png
+│   ├── tweets_by_company.png
+├── data
+│   ├── judge-1377884607_tweet_product_company.csv
+├── eda_notebooks
+│   ├── index_Nate - v3.ipynb.csv
+│   ├── index_just_eda_zach.ipynb
+├── notebook.ipynb
+├── presentation.pdf
+└── README.md
+```
+
 
 
 

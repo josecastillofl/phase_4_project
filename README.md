@@ -46,6 +46,8 @@ See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [p
 
 **For additional info, contact:**
 - Nate Kist: natekist@outlook.com
+- Zach Cherna: zacharycherna@gmail.com
+- Jose Castillo: 114josecastillo@gmail.com 
 
 ## Repository Structure
 
